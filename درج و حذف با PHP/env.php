@@ -1,6 +1,6 @@
 <?php
 $servername = 'localhost';
-$uesrname = 'root';
+$username = 'root';
 $password = '';
-$databse = 'alirezaDB';
+$database = 'alirezaDB';
 ?>
