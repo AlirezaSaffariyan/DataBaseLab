@@ -2,5 +2,5 @@
 $servername = 'localhost';
 $uesrname = 'root';
 $password = '';
-$databse = 'AlirezaDB'
+$databse = 'alirezaDB'
 ?>
