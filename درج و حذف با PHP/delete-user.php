@@ -3,16 +3,17 @@ include 'env.php';
 
 // 1. connect to db
 $dbc = new mysqli($servername, $username, $password);
-$dbc -> select_db($databse);
+$dbc -> select_db($database);
 
 // check connection
 if ($dbc -> connect_error) {
     die("Connection failed: " . $dbc -> connect_error);
 }
-var_dump($_GET['id']);
+$id = $_GET['id'];
+var_dump($id);
 
 // 2. execute query
-$sql = "DELETE FROM test WHERE id = 3";
+$sql = "DELETE FROM user WHERE id = $id";
 $result = $dbc -> query($sql);
 
 if ($result) {
