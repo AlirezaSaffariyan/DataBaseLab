@@ -134,4 +134,4 @@ dmypy.json
 cython_debug/
 
 # Git commit message file
-.message.txt*
+.message.txt
