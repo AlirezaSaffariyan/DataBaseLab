@@ -1,2 +1,5 @@
+.phpdebug
+.vscode/
+
 # Git commit message file
 .message.txt
